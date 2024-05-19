@@ -1,0 +1,13 @@
+{
+  "background": "#f7f7f7",
+  "darkBackground": "#232020",
+  "logo": {
+    "width": 100,
+    "height": 89
+  },
+  "brand": {
+    "bottom": 92,
+    "width": 80,
+    "height": 16
+  }
+}

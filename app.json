@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gunnartorfis.bootsplash-repro"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +23,20 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "./plugins/adyen-plugin.js"
+      ],
+      [
+        "react-native-bootsplash",
+        {
+          "android": {
+            "parentTheme": "TransparentStatus",
+            "darkContentBarsStyle": false
+          }
+        }
+      ]
+    ]
   }
 }
